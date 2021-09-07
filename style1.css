@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-color: black;
+    
+   
+}
+.main{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10%;
+   
+}
+
+.feld{
+
+    background-color: grey;
+    height: 560px;
+    width: 350px;
+    border-radius: 20px;
+    
+    
+}
+
+.kartenfeld{
+
+    width: 300px;
+    height: 500px;
+    background-color: green;
+    border-radius: 20px;
+    position: absolute;
+    
+    }
+    
+    #wachsen{
+
+        text-align: center;
+        font-size: 25px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-top: 7px;
+        color: blanchedalmond;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .bilder{
+      
+        width: 280px;
+        height: 250px;
+        background-image: url("bilder/hintergrund.png");
+        background-size: cover;
+        
+        border: 5px solid #d4cfc9;
+        margin-left: 2%;
+       
+        
+    }
+    #pflanze{
+        width: 89%;
+        margin-left: 6%;
+        
+        
+        
+    }
+    .all{
+height: 50%;
+    }
+    .btn{
+        width: 70%;
+        height: 15%;
+        border-radius: 20px;
+        border: 5px white solid;
+        background-color: rgb(164, 164, 168);
+        color: rgb(255, 255, 255);
+        margin-left: 15%;
+        text-shadow: 4px 4px 4px black; 
+        font-size: 20px;
+        
+        
+    }
+    .btn:hover{
+        
+        background-color: rgb(9, 9, 59);
+    }
+
+    
+    #question{
+        font-size: 22px;
+        text-align: center;
+        color: black;
+        margin-top: 3%;
+        height: 7%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+    }
+    #question__1{
+
+        font-size: 22px;
+        text-align: center;
+        color: black;
+        margin-top: 3%;
+        height: 7%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+    }
+    .result{
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        margin-top: 8px;
+        position: relative;
+    }
+    #textfield{
+        margin-left: 20%;
+        margin-top: 0%;
+        width: 55%;
+        height: 10%;
+        border-radius: 15px;
+        border: 5px rgb(85, 83, 83) solid;
+    }
